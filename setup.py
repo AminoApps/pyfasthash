@@ -236,5 +236,5 @@ setup(name='pyhash',
       ],
       keywords='hash hashing fasthash',
       setup_requires=['pytest-runner', 'pytest-benchmark'],
-      tests_require=['more-itertools==5.0.0', 'pytest'],
+      tests_require=['more-itertools==5.0.0', 'pytest==4.6.4'],
       use_2to3=True)
