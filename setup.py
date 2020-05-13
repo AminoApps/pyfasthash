@@ -235,6 +235,8 @@ setup(name='pyhash',
           'Topic :: Utilities'
       ],
       keywords='hash hashing fasthash',
-      setup_requires=['zipp==0.6.0', 'more-itertools==5.0.0', 'pytest==4.6.4', 'pytest-runner', 'pytest-benchmark'],
-      tests_require=['zipp==0.6.0', 'more-itertools==5.0.0', 'pytest==4.6.4'],
+      setup_requires=['zipp==0.6.0', 'more-itertools==5.0.0'],
+      tests_require=['zipp==0.6.0', 'more-itertools==5.0.0'],
+      # setup_requires=['zipp==0.6.0', 'more-itertools==5.0.0', 'pytest==4.6.4', 'pytest-runner', 'pytest-benchmark'],
+      # tests_require=['zipp==0.6.0', 'more-itertools==5.0.0', 'pytest==4.6.4'],
       use_2to3=True)
